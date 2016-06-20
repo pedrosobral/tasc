@@ -32,7 +32,7 @@ void testbanch::process() {
 }
 
 void testbanch::print() {
-  std::cout << " ** TESTE " << test_count++ << " ** "<< std::endl;
+  std::cout << " ** TESTE DECODER" << test_count++ << " ** "<< std::endl;
   std::cout << " IN :" << input.read() << std::endl;
   std::cout << " OUT:" << output.read() << std::endl;
 }
